@@ -7,6 +7,7 @@ class Solution {
             if (nums[j] != 0) {  // Check if the current element at 'j' is not zero
                 // Swap non-zero element at index 'j' with element at index 'i'
                 int temp = nums[i];
+                //for me - ith ko temp dala jth ko ith m dala jth m temp dala kyunki temp m ab ith hai
                 nums[i] = nums[j];
                 nums[j] = temp;
                 i++;  // Increment 'i' to keep track of non-zero elements
